@@ -1,0 +1,19 @@
+{
+  "name": "kyus",
+  "version": "1.0.0",
+  "description": "My code wars repositoty with excercises and answers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroNav/codeWars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandroNav/codeWars/issues"
+  },
+  "homepage": "https://github.com/AlejandroNav/codeWars#readme"
+}
