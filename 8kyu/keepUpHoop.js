@@ -1,17 +1,10 @@
-function addBinary(a, b) {
-    var sum = a + b,
-        binary = '';
+//Alex can input (n) how many times the hoop goes round and it will return him an encouraging message :)
 
-    while (sum > 0) {
-        binary = (sum % 2) + binary;
-        sum = Math.floor(sum / 2);
+function addBinary(a) {
+    if (a>10) {
+        return "Great, now move on to tricks";
+    } else {
+        return "Keep at it until you get it";
     }
-
-    return binary;
 }
-console.log(addBinary(5, 10));
-
-function addBinary1(a, b) {
-    return (a + b).toString(2)
-}
-console.log(addBinary1(10, 5));
+console.log(addBinary(5));
