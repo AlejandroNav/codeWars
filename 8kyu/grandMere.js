@@ -7,7 +7,7 @@ function dividirCuenta(cuenta){
     quintaParte = cuantaConImpuesto/5
     console.log(quintaParte);
     let total = Number.parseFloat(quintaParte).toFixed(2);
-    return total
+    return total.toString(2)
 }
 
 console.log(dividirCuenta(20));
